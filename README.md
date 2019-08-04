@@ -9,10 +9,10 @@ Add MySQL connection parameters wherever necessary in quotes.go and writedata.go
 
 Schema followed - 
 ```
-CREATE TABLE `quotes_data`.`quotesq` (
-  `idquotes` INT NOT NULL AUTO_INCREMENT,
-  `data` VARCHAR(45) NULL,
-  PRIMARY KEY (`idquotes`));
+CREATE TABLE `quotes_data`.`quotes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `data` VARCHAR(1200) NULL,
+  PRIMARY KEY (`id`));
 ```
 Now run these
 ```
